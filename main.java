@@ -25,7 +25,7 @@ public class main {
 
         public void ausgabe() {
             String[] tage = { "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag" };
-            System.out.println("=== STUNDENPLAN ===");
+            System.out.println("== STUNDENPLAN ==");
 
             System.out.printf("%-12s", "Stunde");
             for (String tag : tage) {
